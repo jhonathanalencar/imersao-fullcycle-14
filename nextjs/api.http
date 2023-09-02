@@ -1,0 +1,13 @@
+GET https://api.tomtom.com/search/2/search/betim,mg.json?key=kaHOC9yzNrhr8BhUNlzcHBidzNK6fHf0
+
+###
+GET https://api.tomtom.com/search/2/search/betim,mg.json?key=kaHOC9yzNrhr8BhUNlzcHBidzNK6fHf0
+
+###
+GET https://api.tomtom.com/search/2/search/belo%20horizonte,mg.json?key=kaHOC9yzNrhr8BhUNlzcHBidzNK6fHf0
+
+###
+GET https://api.tomtom.com/search/2/place.json?entityId=c67dac1e-2f66-4efb-841e-3ca18306bafc&key=kaHOC9yzNrhr8BhUNlzcHBidzNK6fHf0
+
+###
+GET https://api.tomtom.com/routing/1/calculateRoute/-19.967279,-44.198692:-19.918177,-43.937053/json?key=kaHOC9yzNrhr8BhUNlzcHBidzNK6fHf0

@@ -1,0 +1,28 @@
+###
+GET http://localhost:3000/routes
+
+###
+GET http://localhost:3000/routes/64dbf482344b8bab5e26dedf
+
+###
+POST http://localhost:3000/routes
+Content-Type: application/json
+
+{
+    "name": "route test 1",
+    "source_id": "1",
+    "destination_id": "2"
+}
+
+### Mapa
+
+GET https://dev.virtualearth.net/REST/v1/Locations/rio?key=Aluqa55xK47dTy-KYdezN2AGqJO8broNHEEKlnMpXXWYfVBHYWxn9zvE3W2iqogH
+
+###
+GET https://dev.virtualearth.net/REST/V1/Routes/Driving?wp.0=rio de janeiro&wp.1=sao paulo&key=Aluqa55xK47dTy-KYdezN2AGqJO8broNHEEKlnMpXXWYfVBHYWxn9zvE3W2iqogH
+
+### Pegar o place_id
+GET http://localhost:3000/places?text=av governador valadares, betim, 1030
+
+### Pegar direções entre 2 pontos
+GET http://localhost:3000/directions?originWaypoint=Rio de Janeiro&destinationWaypoint=Sao Paulo
